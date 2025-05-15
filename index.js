@@ -370,6 +370,6 @@ var $e=(r,e,t)=>{if(!e.has(r))throw TypeError("Cannot "+t)};var P=(r,e,t)=>($e(r
     }
 
     .mobile .dropdown[data-expanded='true'] {
-      max-height: 100vh;
+      max-height: 150vh;
     }
   `;E([U({type:String})],x.prototype,"src",1);E([U({type:String})],x.prototype,"buttonSrc",1);E([U({type:String,attribute:"secondary-menu-config"})],x.prototype,"secondaryMenu",1);E([U({type:Number})],x.prototype,"breakpoint",1);E([U({type:String,attribute:"location-prefix"})],x.prototype,"locationPrefix",1);E([U({type:String,attribute:"second-menu-prefix"})],x.prototype,"secondMenuPrefix",1);E([at()],x.prototype,"config",2);x=E([rt("qg-top-nav")],x);
