@@ -100,7 +100,6 @@ var $e=(r,e,t)=>{if(!e.has(r))throw TypeError("Cannot "+t)};var P=(r,e,t)=>($e(r
       text-decoration: none;
       display: flex;
       align-items: center;
-      white-space: nowrap;
       transition: 0.2s;
     }
 
@@ -265,6 +264,7 @@ var $e=(r,e,t)=>{if(!e.has(r))throw TypeError("Cannot "+t)};var P=(r,e,t)=>($e(r
     .desktop .dropdown .link {
       padding: 0.75rem 1.5rem;
       font-weight: 400;
+      white-space: nowrap;
     }
 
     .desktop .menu:hover .dropdown {
